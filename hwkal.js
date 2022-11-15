@@ -33,9 +33,9 @@ global.footer = 'Atsair' //ubah jadi nama mu, note tanda ' gausah di hapus!
 // Other
 global.owner = ['6289510402229'] // ubah aja pake nomor lu
 global.premium = ['6289510402229'] // ubah aja pake nomor lu
-global.packname = 'Atsair' // ubah aja
-global.ownerr = ['Atsair'] // ubaha aja
-global.author = 'Atsair' //ubah aja
+global.packname = 'Noxyy' // ubah aja
+global.ownerr = ['Noxyy'] // ubaha aja
+global.author = 'Noxxy' //ubah aja
 global.sessionName = './sessionye/haikal' //Gausaj Di Ubah
 global.prefa = ['','!','.',',','🐤','🗿'] // Gausah Mendingan 
 global.sp = '⭔' // Gausah Juga
